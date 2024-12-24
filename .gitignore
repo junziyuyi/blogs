@@ -1,0 +1,31 @@
+.DS_Store
+.hbuilderx
+
+node_modules
+
+.idea
+/.vscode/
+
+dist
+*.log
+explorations
+*.local
+*.local*
+*.cpuprofile
+*.iml
+.history
+
+# lock
+package-lock.json
+**/*/package-lock.json
+yarn.lock
+**/*/yarn.lock
+
+# debug
+*debug.log
+
+# vite
+*.timestamp*
+
+# vite
+vite.config.mts.timestamp*
